@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-class AlienNumeralConverter { // ลบคำว่า public ออก
+class AlienNumeralConverter { // สร้าง class คลาสนี้เป็นที่รวมฟังก์ชันที่ใช้สำหรับแปลงเลข Alien numeral เป็นจำนวนเต็ม โดยมีฟังก์ชันหลักคือ alienToInteger
     public static int alienToInteger(String s) {
         // สร้างแผนที่ (HashMap) เพื่อเก็บค่าสัญลักษณ์ Alien numeral
         HashMap<Character, Integer> alienValues = new HashMap<>();
