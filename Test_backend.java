@@ -38,7 +38,7 @@ class AlienNumeralConverter { // ลบคำว่า public ออก
 
 public class Test_backend { // เปลี่ยนคลาสนี้ให้เป็น public
     public static void main(String[] args) {
-        // ตัวอย่างการใช้งาน
+        // การใช้งาน
         System.out.println("Input: AAA, Output: " + AlienNumeralConverter.alienToInteger("AAA")); // 3
         System.out.println("Input: LBAAA, Output: " + AlienNumeralConverter.alienToInteger("LBAAA")); // 58
         System.out.println("Input: RCRZCAB, Output: " + AlienNumeralConverter.alienToInteger("RCRZCAB")); // 1994
